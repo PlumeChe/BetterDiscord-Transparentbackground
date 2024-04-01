@@ -1,5 +1,6 @@
 # BetterDiscord-Transparentbackground
 ![image](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTFveGNwZzFkdnBka2FhczU3bXF6c3Jrb29vc2p1aHAwMHUwcnd6aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MK2PeFh5Bc8mbVZiLE/giphy.gif)
+
 回復的訊息為青綠高亮
 ![image](https://i.imgur.com/AkJEXkr.png)
 
