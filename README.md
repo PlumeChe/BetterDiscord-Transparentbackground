@@ -1,5 +1,5 @@
 # BetterDiscord-Transparentbackground
-<iframe src="https://giphy.com/embed/MK2PeFh5Bc8mbVZiLE" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/MK2PeFh5Bc8mbVZiLE">via GIPHY</a></p>
+![image]([https://giphy.com/embed/MK2PeFh5Bc8mbVZiLE](https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExeTFveGNwZzFkdnBka2FhczU3bXF6c3Jrb29vc2p1aHAwMHUwcnd6aCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/MK2PeFh5Bc8mbVZiLE/giphy.gif))
 注意該物件是個插建捕丁使用第三方軟體來充當平台作為使用
 若Discord因此遭到封鎖恕不負責。
 使用方法：
