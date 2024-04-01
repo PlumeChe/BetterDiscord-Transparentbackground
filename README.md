@@ -1,4 +1,5 @@
 # BetterDiscord-Transparentbackground
+<iframe src="https://giphy.com/embed/MK2PeFh5Bc8mbVZiLE" width="480" height="270" frameBorder="0" class="giphy-embed" allowFullScreen></iframe><p><a href="https://giphy.com/gifs/MK2PeFh5Bc8mbVZiLE">via GIPHY</a></p>
 注意該物件是個插建捕丁使用第三方軟體來充當平台作為使用
 若Discord因此遭到封鎖恕不負責。
 使用方法：
