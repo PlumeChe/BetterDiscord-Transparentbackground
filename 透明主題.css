@@ -1,0 +1,81 @@
+/**
+ * @name 透明主題
+ * @version 第一版
+ * @description 主要是用於半透明的
+ * @author 阿奈RNai
+ *
+ * @website http://github.com/PlumeChe
+ * @source http://github.com/PlumeChe
+ * @donate https://www.qqxiuzi.cn/zh/dazi.php?text=%E6%88%91%E4%B8%8D%E9%9C%80%E8%A6%81&color=0F3&mode=m
+ * @invite hjvgZXs9Fb
+ * 我的其他圖片網址
+ https://iknow-pic.cdn.bcebos.com/0b46f21fbe096b63d30f4b590d338744ebf8aca0
+
+ 我預設的
+ https://i.imgur.com/e6hB7hL.gif
+ */
+
+@import url(https://capnkitten.github.io/BetterDiscord/Themes/Translucence/css/source.css);
+
+/* 使用一個白色的區塊覆蓋在整個畫面上 如果喜歡全部透明可以將background-color後面的0.156改為0則為全透明0.5半透明 */
+body::before {
+    content: "";
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%; /*寬*/
+    height: 100%; /*長*/
+    background-color: rgba(42, 41, 41, 0.156); /*＊這邊都是設定顏色3個255就是白色||255,255,255＊,＊透明程度＊*/
+    z-index: 1; /* 在主要的背景圖片之上 0則為下 因為不能太透則須要保留這個 */
+}
+
+
+:root {
+	/*自訂桌布"Url"*/
+	--app-bg: url(https://iknow-pic.cdn.bcebos.com/0b46f21fbe096b63d30f4b590d338744ebf8aca0);
+	--app-blur: 10px; /*模糊程度 */
+	--app-margin: 7px; /*邊界大小*/
+	--app-radius: 21px; /*設定圓角半徑*/
+	
+	--accent-hue: 156; /*顏色色相*/
+	--accent-saturation: 80.5%; /*飽和度 */
+	--accent-lightness: 66.1%; /*亮度 */
+	--accent-opacity: 40%; /*透明度*/
+	--accent-text-color: #00; /*字體的顏色*/
+
+	--sidebar-color: rgba(0,0,0,0.196); /*側邊攔區塊的背景顏色*/
+	--main-content-color: rgba(0,0,0,0.2); /*主要內容區塊的背景顏色*/
+
+	--message-color: rgba(0,0,0,0.12); /*訊息框的背景顏色*/
+	--message-radius: 12px; /*圓角*/
+	--message-padding-top: 2px; /*上邊距*/
+	--message-padding-side: 7px; /*側邊距*/
+	
+	--reply-hue: #fff;
+	--reply-saturation: 10.4%;
+	--reply-lightness: 10.8%;
+	--reply-opacity: 1; /*	-	*/
+
+	--textarea-color: 41,41,41;
+	--textarea-alpha: 1;
+	--textarea-alpha-focus: 0.15;
+	--textarea-text-color: #fff;
+	--textarea-radius: 22px;  /*	-	*/
+
+	--card-color: rgba(0,0,0,0.4);
+	--card-color-hover: rgba(0,0,0,0.5);
+	--card-color-select: rgba(0,0,0,0.7); /*	-	*/
+	
+	--button-height: 32px;
+	--button-padding: 10px;
+	--button-action-color: #000;
+	--button-radius: 16px; /*	-	*/
+
+	--interactive-normal: #aaa;
+	--interactive-hover: #ddd;
+	--interactive-active: #fff;
+	--interactive-muted: #777; /*	-	*/
+
+	--background-modifier-hover: rgba(255,255,255,0.075);
+	--background-modifier-selected: rgba(255,255,255,0.125);
+}
